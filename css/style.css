@@ -241,17 +241,17 @@ padding: 35px 0;
 .destination a:hover img {
     transform: scale(1.1);
 }
-/* تنسيق الصور داخل الـ Destination */
+
 .destination .row .zoomIn img {
     width: 100%;
-    height: auto;  /* الحفاظ على النسبة الطبيعية للصورة */
+    height: auto;  
     object-fit: cover;
 }
 
-/* تغيير الشكل في الشاشات الصغيرة */
+
 @media (max-width: 768px) {
     .destination .row .col-lg-6 {
-        width: 100%;  /* الصور هتكون 100% في العرض وتكون تحت بعض */
+        width: 100%; 
     }
 }
 
